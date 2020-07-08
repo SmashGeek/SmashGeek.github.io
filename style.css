@@ -191,7 +191,7 @@ article
 	justify-content: space-around;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px)
+@media (min-width: 768px) and (max-width: 1024px)
 {
 body
 {
@@ -231,5 +231,79 @@ article
 	flex-direction: row;
 	width: auto;
 	margin: 0;
+}
+}
+
+@media (min-width: 200px) and (max-width: 767px)
+{
+
+body
+{
+	margin: 0;
+}
+
+header
+{
+	width: auto;
+	margin: auto;
+	flex-direction: column;
+}
+
+#photo
+{
+	display: none;
+}
+
+#entete
+{
+	width: auto;
+	text-align: center;
+}
+
+#page
+{
+	flex-direction: column;
+	width: auto;
+	margin: auto;
+}
+
+aside
+{
+	order: 2;
+	width: auto;
+	margin: auto;
+}
+
+#propos
+{
+	padding-bottom: 0;
+}
+
+article
+{
+	width: auto;
+	margin: auto;
+}
+
+.titre_section
+{
+	height: auto;
+	justify-content: center;
+}
+.formation, .work
+{
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.formation_text, .work_text
+{
+	width: auto;
+	padding: 0 15px;
+}
+
+.reco
+{
+	text-align: center;
 }
 }

@@ -190,3 +190,46 @@ article
 	display: flex;
 	justify-content: space-around;
 }
+
+@media only screen and (min-width: 768px) and(max-width: 1024px)
+{
+body
+{
+	margin: 0;
+}
+
+header
+{
+	width: auto;
+	margin: auto;
+}
+#entete
+{
+	width: 75%;
+	margin: 0;
+}
+
+h2
+{
+	height: auto;
+}
+
+aside
+{
+	width: 25%;
+	margin: 0;
+}
+
+article
+{
+	width: 75%;
+	margin: 0;
+}
+
+#page
+{
+	flex-direction: row;
+	width: auto;
+	margin: 0;
+}
+}

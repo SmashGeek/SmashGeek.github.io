@@ -64,14 +64,26 @@ header
 h1
 {
 	font-family: 'jurademibold', Arial, sans-serif;
-	color: #27ae60;
 	font-size: 44px;
+	margin-left: 65px;
 }
+
+h1 span
+{
+	color: #27ae60;
+}
+
 
 h2
 {
 	font-family: 'juralight', Arial, sans-serif;
 	font-size: 22px;
+	margin-left: 65px;
+}
+
+h2 span
+{
+	border-bottom: 2px #27ae60 solid;
 }
 
 #page
@@ -101,20 +113,20 @@ aside h3
 	flex-direction: column;
 }
 
-#contact, #propos
+#contact
 {
-	display: flex;
-	flex-direction: column;
+	margin-bottom: 5px;
 }
 
-#propos
+#propos p
 {
-	text-align: center;
-	padding-bottom: 400px;
+	padding: 8% 8% 400px 8%;
+	text-align: justify;
 }
 
-#loisir
+#loisir p
 {
+	font-size: 40px;
 
 }
 
@@ -128,7 +140,7 @@ article
 
 .titre_section
 {
-	height: 50px;
+	height: auto;
 	text-transform: uppercase;
 	border-bottom: 2px #27ae60 solid;
 	display: flex;
@@ -242,6 +254,11 @@ article
 	flex-direction: row;
 	width: auto;
 	margin: 0;
+}
+
+.titre_section
+{
+	height: auto;
 }
 }
 

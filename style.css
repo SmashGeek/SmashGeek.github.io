@@ -40,14 +40,14 @@ header
 #photo
 {
 	width: 25%;
-	height: 326px;
+	height: auto;
 	background-color: #27ae60;
 	text-align: center;
 }
 
 #photo img
 {
-	width: auto; 
+	width: 65%; 
 	border-radius: 50%;
 	border: 2px solid #f1c40f;
 	margin: 20px 0px 20px 0px;
@@ -109,14 +109,13 @@ aside h3
 
 #propos
 {
-	text-align: justify;
+	text-align: center;
 	padding-bottom: 400px;
 }
 
 #loisir
 {
-	display: flex;
-	flex-direction: column;
+
 }
 
 article
@@ -150,6 +149,13 @@ article
 	justify-content: space-around;
 	margin-bottom: 5px;
 }
+
+ul
+{
+	list-style-type: none;
+}
+
+
 
 .formation, .work
 {
@@ -207,6 +213,11 @@ header
 {
 	width: 75%;
 	margin: 0;
+}
+
+#photo
+{
+	height: auto;
 }
 
 h2

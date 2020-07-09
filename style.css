@@ -1,23 +1,9 @@
 @font-face {
-    font-family: 'jurademibold';
-    src: url('font/jura-demibold-webfont.eot');
-    src: url('font/jura-demibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/jura-demibold-webfont.woff2') format('woff2'),
-         url('font/jura-demibold-webfont.woff') format('woff'),
-         url('font/jura-demibold-webfont.ttf') format('truetype'),
-         url('font/jura-demibold-webfont.svg#jurademibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'juralight';
-    src: url('font/jura-light-webfont.eot');
-    src: url('font/jura-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/jura-light-webfont.woff2') format('woff2'),
-         url('font/jura-light-webfont.woff') format('woff'),
-         url('font/jura-light-webfont.ttf') format('truetype'),
-         url('font/jura-light-webfont.svg#juralight') format('svg');
+    font-family: 'geometry_soft_probold_n';
+    src: url('font/Geometry_Soft_Pro-Bold_N-webfont.eot');
+    src: url('font/Geometry_Soft_Pro-Bold_N-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Geometry_Soft_Pro-Bold_N-webfont.woff2') format('woff2'),
+         url('font/Geometry_Soft_Pro-Bold_N-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -63,9 +49,10 @@ header
 
 h1
 {
-	font-family: 'jurademibold', Arial, sans-serif;
+	font-family: 'geometry_soft_probold_n', Arial, sans-serif;
 	font-size: 44px;
-	margin-left: 65px;
+	margin-left: 5%;
+	margin-top: 10%;
 }
 
 h1 span
@@ -76,9 +63,9 @@ h1 span
 
 h2
 {
-	font-family: 'juralight', Arial, sans-serif;
+	font-family: 'geometry_soft_probold_n', Arial, sans-serif;
 	font-size: 22px;
-	margin-left: 65px;
+	margin-left: 5%;
 }
 
 h2 span
@@ -102,6 +89,7 @@ aside
 
 aside h3
 {
+	font-family: 'geometry_soft_probold_n', Arial, sans-serif;
 	width: 100%;
 	background-color: #2c3e50;
 	color: #f1c40f;
@@ -116,6 +104,11 @@ aside h3
 #contact
 {
 	margin-bottom: 5px;
+}
+#contact p
+{
+	padding-left: 10px;
+	text-align: left;
 }
 
 #propos p
@@ -140,13 +133,14 @@ article
 
 .titre_section
 {
+	font-family: 'geometry_soft_probold_n', Arial, sans-serif;
 	height: auto;
 	text-transform: uppercase;
 	border-bottom: 2px #27ae60 solid;
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
-	margin: 0 65px 20px 65px;
+	margin: 0 5% 2% 5%;
 }
 
 .titre_section i
@@ -178,10 +172,11 @@ ul
 
 .date
 {
+	font-family: 'geometry_soft_probold_n', Arial, sans-serif;
 	display: flex;
-	flex-flow: row wrap;
-	margin-left: 65px;
+	flex-direction: row;
 	width: 25%;
+	margin-left: 5%;
 }
 
 .date span
@@ -198,8 +193,15 @@ ul
 
 .formation_text, .work_text
 {
-	padding-left: 20px;
+	margin-left: 5%;
 	width: 70%;
+}
+
+.formation_text h4, .work_text h4
+{
+	font-family: 'geometry_soft_probold_n', Arial, sans-serif;
+	border-bottom: 2px #27ae60 solid;
+	margin-right: 250px;
 }
 
 
@@ -302,9 +304,9 @@ aside
 	margin: auto;
 }
 
-#propos
+#propos p
 {
-	padding-bottom: 0;
+	padding-bottom: 8%;
 }
 
 article
@@ -315,9 +317,9 @@ article
 
 .titre_section
 {
-	height: auto;
 	justify-content: center;
 }
+
 .formation, .work
 {
 	flex-direction: column;

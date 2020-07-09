@@ -191,7 +191,7 @@ article
 	justify-content: space-around;
 }
 
-@media (min-width: 768px) and (max-width: 1024px)
+@media (min-width: 600px) and (max-width: 1024px)
 {
 body
 {
@@ -234,7 +234,7 @@ article
 }
 }
 
-@media (min-width: 200px) and (max-width: 767px)
+@media (min-width: 200px) and (max-width: 599px)
 {
 
 body

@@ -236,6 +236,7 @@ header
 
 #photo
 {
+	width: 30%;
 	height: auto;
 }
 
@@ -246,7 +247,7 @@ h2
 
 aside
 {
-	width: 30%
+	width: 30%;
 	margin: 0;
 }
 

@@ -111,10 +111,9 @@ aside h3
 	text-align: left;
 }
 
-#propos p
+#propos
 {
-	padding: 8% 8% 400px 8%;
-	text-align: justify;
+	padding-bottom: 400px;
 }
 
 #loisir p

@@ -1,3 +1,4 @@
+/* police d'écriture personnalisée*/
 @font-face {
     font-family: 'geometry_soft_probold_n';
     src: url('font/Geometry_Soft_Pro-Bold_N-webfont.eot');
@@ -8,13 +9,16 @@
     font-style: normal;
 
 }
-
+/* fin police écriture personnalisée*/
+/* règles affichage pour la page*/
 body
 {
 	background-color: #282828;
 	margin: 0 auto 0 auto;
 }
+/*fin règles affichage page*/
 
+/* début header */
 header
 {
 	width: 65%;
@@ -72,14 +76,18 @@ h2 span
 {
 	border-bottom: 2px #27ae60 solid;
 }
+/* fin header*/
 
+/* règles affichage de toute la page sauf header*/
 #page
 {
 	width: 65%;
 	display: flex;
 	margin: 0 auto;
 }
+/* fin affichage page*/
 
+/* affichage partie gauche de la page*/
 aside
 {
 	width: 25%;
@@ -122,6 +130,9 @@ aside h3
 
 }
 
+/* fin affichage partie gauche de la page*/
+
+/* début affichage partie droite de la page*/
 article
 {
 	width: 75%;
@@ -219,142 +230,4 @@ ul
 	display: flex;
 	justify-content: space-around;
 }
-
-@media (min-width: 600px) and (max-width: 1024px)
-{
-body
-{
-	margin: 0;
-}
-
-header
-{
-	width: auto;
-	margin: auto;
-}
-#entete
-{
-	width: 75%;
-	margin: 0;
-}
-
-#photo
-{
-	width: 30%;
-	height: auto;
-}
-
-h2
-{
-	height: auto;
-}
-
-aside
-{
-	width: 30%;
-	margin: 0;
-}
-
-#coupe
-{
-	overflow-wrap: break-word;
-	word-wrap: break-word;
-}
-
-article
-{
-	width: 75%;
-	margin: 0;
-}
-
-#page
-{
-	flex-direction: row;
-	width: auto;
-	margin: 0;
-}
-
-.titre_section
-{
-	height: auto;
-}
-
-.reco
-{
-	text-align: center;
-}
-}
-
-@media (min-width: 200px) and (max-width: 599px)
-{
-
-body
-{
-	margin: 0;
-}
-
-header
-{
-	width: auto;
-	margin: auto;
-	flex-direction: column;
-}
-
-#photo
-{
-	display: none;
-}
-
-#entete
-{
-	width: auto;
-	text-align: center;
-}
-
-#page
-{
-	flex-direction: column;
-	width: auto;
-	margin: auto;
-}
-
-aside
-{
-	order: 2;
-	width: auto;
-	margin: auto;
-}
-
-#propos p
-{
-	padding-bottom: 8%;
-}
-
-article
-{
-	width: auto;
-	margin: auto;
-}
-
-.titre_section
-{
-	justify-content: center;
-}
-
-.formation, .work
-{
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.formation_text, .work_text
-{
-	width: auto;
-	padding: 0 15px;
-}
-
-.reco
-{
-	text-align: center;
-}
-}
+/* fin affichage partie droite de la page*/

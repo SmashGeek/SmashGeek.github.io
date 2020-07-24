@@ -1,0 +1,65 @@
+/* règles d'affichage pour tablettes*/
+@media all and (min-width: 600px) and (max-width: 1024px)
+{
+body
+{
+	margin: 0;
+}
+
+header
+{
+	width: auto;
+	margin: auto;
+}
+#entete
+{
+	width: 75%;
+	margin: 0;
+}
+
+#photo
+{
+	width: 30%;
+	height: auto;
+}
+
+h2
+{
+	height: auto;
+}
+
+aside
+{
+	width: 30%;
+	margin: 0;
+}
+
+#coupe
+{
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+article
+{
+	width: 75%;
+	margin: 0;
+}
+
+#page
+{
+	flex-direction: row;
+	width: auto;
+	margin: 0;
+}
+
+.titre_section
+{
+	height: auto;
+}
+
+.reco
+{
+	text-align: center;
+}
+}
